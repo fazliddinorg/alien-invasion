@@ -2,6 +2,7 @@ import pygame.font
 from button import Button
 
 
+
 class Menu:
     def __init__(self, ai_settings, screen, stats):
         """Initialize menu attributes."""
