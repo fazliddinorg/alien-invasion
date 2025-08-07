@@ -4,7 +4,7 @@ from random import choice
 
 
 
-def load_random_alien_image():
+def load_random_alien_image() -> str:
     """Randomly select an alien image path."""
     image_paths = ['./images/monster.png', './images/gorilla.png']
     return choice(image_paths)
