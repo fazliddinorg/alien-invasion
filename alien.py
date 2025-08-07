@@ -3,7 +3,6 @@ from pygame.sprite import Sprite
 from random import choice
 
 
-
 def load_random_alien_image() -> str:
     """Randomly select an alien image path."""
     image_paths = ['./images/monster.png', './images/gorilla.png']
